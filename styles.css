@@ -42,7 +42,7 @@ html, body {
 
 .coming-soon {
     position: absolute;
-    top: 62%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Bero', sans-serif;
@@ -95,5 +95,16 @@ html, body {
     .coming-soon {
         font-size: 28px;
         margin-top: -20px;
+    }
+}
+@media (orientation: landscape) and (max-width: 820px) {
+    .coming-soon {
+        margin-top: -10px; /* Adjust this value as needed */
+    }
+}
+
+@media (orientation: landscape) and (max-width: 1024px) {
+    .coming-soon {
+        margin-top: 30px; /* Optional: Reset margin for a better fit */
     }
 }
