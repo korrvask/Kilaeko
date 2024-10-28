@@ -103,7 +103,7 @@ html, body {
     }
 }
 
-@media (orientation: landscape) and (max-width: 1024px) {
+@media (orientation: landscape) and (max-width: 1400px) {
     .coming-soon {
         margin-top: 40px; /* Optional: Reset margin for a better fit */
     }
