@@ -58,11 +58,11 @@ html, body {
 
 @media (max-width: 480px) {
     .logo-image img {
-        width: 80vw;
-        min-width: 280px;
+        width: 100vw;
+        min-width: 400px;
     }
     .coming-soon {
-        margin-top: -60px;
+        margin-top: -80px;
     }
 }
 
