@@ -97,14 +97,20 @@ html, body {
         margin-top: -20px;
     }
 }
-@media (orientation: landscape) and (max-width: 820px) {
+
+@media (orientation: landscape) and (max-height: 460px) {
     .coming-soon {
-        margin-top: 40px; /* Adjust this value as needed */
+        margin-top: 80px;
+    }
+}
+@media (orientation: landscape) and (max-height: 820px) {
+    .coming-soon {
+        margin-top: 60px;
     }
 }
 
-@media (orientation: landscape) and (max-width: 1400px) {
+@media (orientation: landscape) and (max-height: 1400px) {
     .coming-soon {
-        margin-top: 40px; /* Optional: Reset margin for a better fit */
+        margin-top: 40px;
     }
 }
